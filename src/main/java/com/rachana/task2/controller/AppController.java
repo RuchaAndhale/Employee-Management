@@ -1,4 +1,4 @@
-package com.rachana.Task.controller;
+package com.rachana.task2.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.rachana.Task.model.User;
-import com.rachana.Task.repository.UserRepository;
-import com.rachana.Task.service.UserLogin;
+import com.rachana.task2.model.User;
+import com.rachana.task2.repository.UserRepository;
+import com.rachana.task2.service.UserLogin;
 
 @Controller
 public class AppController {

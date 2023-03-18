@@ -1,11 +1,11 @@
-package com.rachana.Task.serviceimpl;
+package com.rachana.task2.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.rachana.Task.model.User;
-import com.rachana.Task.repository.UserRepository;
-import com.rachana.Task.service.UserLogin;
+import com.rachana.task2.model.User;
+import com.rachana.task2.repository.UserRepository;
+import com.rachana.task2.service.UserLogin;
 
 @Service
 public class UserLoginnImpl implements UserLogin {

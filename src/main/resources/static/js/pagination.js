@@ -49,4 +49,28 @@ $(document).ready(function() {
         	}
 		});   
 	});
+	
+	// Export the data
+	$('.export-btn').click(function() {
+	    $.ajax({
+	        url: 'http://localhost:8080/api/export',
+	        method: 'GET',
+	        success: function(response) {
+	            // Use the FileSaver.js library to download the file
+	            /*var blob = new Blob([response], { type: 'text/plain;charset=utf-8' });
+	            saveAs(blob, 'data.txt');*/
+	            var binaryData = [];
+					binaryData.push(response);
+	                var downloadLink = document.createElement('a');
+	                downloadLink.href = URL.createObjectURL(new Blob(binaryData));
+	                downloadLink.download = 'datatable.txt';
+	                downloadLink.click();
+	        },
+	        error: function(error) {
+	            console.log(error);
+	        }
+	    });
+	});
+	
+	
 });

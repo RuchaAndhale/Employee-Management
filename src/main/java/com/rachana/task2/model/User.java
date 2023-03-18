@@ -1,4 +1,4 @@
-package com.rachana.Task.model;
+package com.rachana.task2.model;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

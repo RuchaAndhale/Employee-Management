@@ -9,8 +9,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.annotation.Rollback;
 
-import com.rachana.Task.model.User;
-import com.rachana.Task.repository.UserRepository;
+import com.rachana.task2.model.User;
+import com.rachana.task2.repository.UserRepository;
 
 
 @DataJpaTest

@@ -1,4 +1,4 @@
-package com.rachana.Task;
+package com.rachana.task2;
 
 import org.springframework.boot.SpringApplication;
 

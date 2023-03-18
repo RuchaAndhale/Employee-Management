@@ -58,6 +58,36 @@ h1{
    	color: #fff !important;
 }
 
+.export-btn{
+	float: right;
+	text-align: right;
+	margin-top: 40px;
+	padding: 0.755em;
+	margin-right: 2px;
+	margin-left: 150px;
+	min-width: 1.5em;
+	padding: 0.5em 1em;
+	text-align: center;
+	border: 1px;
+	
+	
+	border-radius: 8px !important;
+	
+	color: #000 !important;
+}
+
+.export-btn:hover{
+	border: 1px solid #979797;
+
+  	background: none !important;
+
+  	border-radius: 8px !important;
+
+   	background-color: #000 !important;
+
+   	color: #fff !important;
+}
+
 .container {
 	position: absolute;
 	margin-top: 16px;
@@ -148,7 +178,7 @@ tbody td:hover::before {
 	padding: 0.5em 1em;
 	margin-right: 2px;
 	padding: 0.755em;
-	text-align: center;
+	text-align: center;       
 	
 }
 

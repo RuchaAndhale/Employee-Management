@@ -1,10 +1,10 @@
-package com.rachana.Task.repository;
+package com.rachana.task2.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.rachana.Task.model.User;
+import com.rachana.task2.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 	
