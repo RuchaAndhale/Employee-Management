@@ -17,9 +17,16 @@ $(document).ready(function() {
 		],
         "paging": true,  
         dom: 'Bfrtip',
-    	buttons: [{
+    	buttons: [
+			// 'pdf', 'excel'
+			{
       		extend: 'pdf',
-      		title: 'Customized PDF Title',
+      		title: 'Employee Details PDF File',
+      		filename: 'Data'
+    	},
+    	{
+      		extend: 'excel',
+      		title: 'Employee Details Excel Sheet',
       		filename: 'Data'
     	}]    
 	} );
@@ -57,7 +64,7 @@ $(document).ready(function() {
 	});
 	
 	// Export the data
-	$('.export-btn').click(function() {
+	$('#export-btn').click(function() {
 	    $.ajax({
 	        url: 'http://localhost:8080/api/export',
 	        method: 'GET',

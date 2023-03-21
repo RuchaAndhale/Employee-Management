@@ -47,44 +47,68 @@ h1{
 	text-align: center;
 	margin-left: 40px;
 	border: 1px;
-	border-radius: 10px !important;
+	border-radius: 8px !important;
 	color: #000 !important;
 }
 #btnAdd:hover{
 	border: 1px solid #979797;
   	background: none !important;
-  	border-radius: 10px !important;
+  	border-radius: 8px !important;
    	background-color: #000 !important;
    	color: #fff !important;
 }
 
-.export-btn{
+#export-btn{
 	float: right;
-	text-align: right;
-	margin-top: 40px;
-	padding: 0.755em;
-	margin-right: 2px;
-	margin-left: 150px;
+	margin-left: 200px;
+	margin-top: 30px;
 	min-width: 1.5em;
 	padding: 0.5em 1em;
 	text-align: center;
 	border: 1px;
-	
-	
-	border-radius: 8px !important;
-	
+	border-radius: 2px !important;
 	color: #000 !important;
 }
 
-.export-btn:hover{
+#export-btn:hover{
 	border: 1px solid #979797;
-
   	background: none !important;
-
-  	border-radius: 8px !important;
-
+  	border-radius: 2px !important;
    	background-color: #000 !important;
+   	color: #fff !important;
+}
 
+.btn{
+	text-align: center;
+	border: 1px;
+	border-radius: 2px !important;
+	color: #000 !important;
+}
+
+.btn:hover{
+	border: 1px solid #979797;
+  	background: none !important;
+  	border-radius: 2px !important;
+   	background-color: #000 !important;
+   	color: #fff !important;
+}
+
+.dt-button {
+	margin-left: 0px;
+	margin-top: 10px;
+	padding: 0.755em;
+	min-width: 1.5em;
+	text-align: center;
+	border: 1px;
+	border-radius: 2px !important;
+	color: #000 !important;
+}
+
+.dt-button:hover{
+	border: 1px solid #979797;
+  	background: none !important;
+  	border-radius: 2px !important;
+   	background-color: #000 !important;
    	color: #fff !important;
 }
 
@@ -141,6 +165,7 @@ tbody td:hover::before {
 	background-color: rgba(255,255,255,0.2);
 	z-index: -1;
 }
+
 .dataTables_wrapper .dataTables_filter {
 	float: right;
 	text-align: right;
