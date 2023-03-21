@@ -15,7 +15,13 @@ $(document).ready(function() {
                     return '<button type="button" class="btn fa fa-trash-can icon-dark btn-danger delete-button" data-id="' + row.id + '">Delete</button>';
             }}
 		],
-        "paging": true,    
+        "paging": true,  
+        dom: 'Bfrtip',
+    	buttons: [{
+      		extend: 'pdf',
+      		title: 'Customized PDF Title',
+      		filename: 'Data'
+    	}]    
 	} );
 	
 	//Get data from user pot it into database and load the datatable
